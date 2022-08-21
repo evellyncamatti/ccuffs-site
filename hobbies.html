@@ -1,0 +1,69 @@
+<html>
+    <head><!--Estilo/layout/visual-->
+        <title>Hobbies</title>
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!--Incluir o arquivo de CSS:-->
+        <link rel="stylesheet" href="estilo.css">
+        <!--Sempre vai considerar a última regra para o atributo-->
+        <script src="scripct.js" defer></script>
+    </head>
+    <body>
+      <!--Menu de navegação-->
+        <header><div class="cabecalho"><p id="escritacabecalho">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link navegacao" aria-current="page" href="index.html">Sobre a Évellyn</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navegacao" href="faculdade.html">Faculdade</a>
+                </li>
+                <li class="nav-item">
+                  <!--O que fica em rosa no cabeçalho-->
+                  <a class="nav-link active navegacao" href="hobbies.html">Hobbies da Évellyn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navegacao" href="curriculo.html">Currículo</a>
+                  </li>
+            </ul>
+        </div></header>
+        <!--Texto do que eu gosto-->
+        <p>Eu sou uma pessoa muito caseira, então adoro ficar em casa e assistir filmes.</p>
+        <p>Meus estilos de filmes preferidos são:</p>
+        <p>* Aventura</p>
+        <p>* Comédia</p>
+        <p>* Romance</p>
+        <br>
+        <p>Eu também sou apaixonada por animais, em casa eu tenho dois cachorros:</p>
+        <!--Meggie em negrito-->
+        <p>A <strong>Meggie</strong></p>
+        <img src="meggie.jpeg" id="meggie"/>
+        <br>
+        <br>
+        <div>
+          <!--Criando o botão que vai chamar a função js-->
+          <button class="btn btn-outline-secondary" onclick="alterarImagem('meggie', 'meggie.jpeg');"><</button>
+          <button class="btn btn-outline-secondary" onclick="alterarImagem('meggie', 'meggie_2.jpeg');">></button>
+        </div>
+        <br>
+        <p>Ela tem apenas dois aninhos, então ainda é filhote e ama brincar.</p>
+        <br>
+        <!--Tico em negrito-->
+        <p>E o <strong>Tico</strong></p>
+        <p>Sim, o nome é meio estranho, mas eu ganhei ele com uns 9 anos e não fazia ideia do que podia significar.</p>
+        <img src="tico.jpeg" id="tico"/>
+        <br>
+        <br>
+        <div>
+          <!--Criando o botão que vai chamar a função js-->
+          <button class="btn btn-outline-secondary" onclick="alterarImagem('tico', 'tico.jpeg');"><</button>
+          <button class="btn btn-outline-secondary" onclick="alterarImagem('tico', 'tico_2.jpeg');">></button>
+        </div>
+        <br>
+        <p>Ele é super carinhoso, mas já tem mais de 12 anos, então acaba dormindo a maior parte do dia.</p>
+        <p>Eu sou completamente apaixonada por eles!</p>
+        <p>Posso até falar que são meus calmantes!</p>
+        <br>
+
+    </body>
+</html>

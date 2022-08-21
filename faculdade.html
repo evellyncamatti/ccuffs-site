@@ -1,0 +1,73 @@
+<html>
+    <head><!--Estilo/layout/visual-->
+        <title>Dados sobre a faculdade</title>
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!--Incluir o arquivo de CSS:-->
+        <link rel="stylesheet" href="estilo.css">
+        <!--Sempre vai considerar a última regra para o atributo-->
+    </head>
+    <body>
+      <!--Menu de navegação-->
+        <header><div class="cabecalho"><p id="escritacabecalho">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link navegacao" aria-current="page" href="index.html">Sobre a Évellyn</a>
+                </li>
+                <li class="nav-item">
+                    <!--O que está em rosa no cabeçalho-->
+                  <a class="nav-link active navegacao" href="faculdade.html">Faculdade</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navegacao" href="hobbies.html">Hobbies da Évellyn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navegacao" href="curriculo.html">Currículo</a>
+                  </li>
+            </ul>
+        </div></header>
+        <br>
+        <p>Estou cursando o 4/10 semestres</p>
+        <p>em Ciência da Computação,</p>
+        <p>na Universidade Federal da Fronteira Sul - Câmpus Chapecó.</p>
+        <br>
+        <br>
+        <!--Adicionando tabela no estilo do bootstrap-->
+        <table class="table table-striped"> 
+            <thead>
+                <tr><!--LINHA-->
+                    <th>Descrição</th><!--COLUNA-->
+                    <th>C.H. Exigida</th>
+                    <th>C.H. Realizada</th>
+                    <th>Realizado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--LINHA-->
+                    <td>Componentes Curriculares Obrigatórios	</td><!--COLUNA-->
+                    <td>2610</td>
+                    <td>1020</td>
+                    <td>39,08%</td>
+                </tr>            
+                <tr><!--LINHA-->
+                    <td>Componentes Curriculares Optativos	</td><!--COLUNA-->
+                    <td>300</td>
+                    <td>0</td>
+                    <td>0,00%</td>
+                </tr>
+                <tr><!--LINHA-->
+                    <td>Atividades Curriculares Complementares	</td><!--COLUNA-->
+                    <td>300</td>
+                    <td>8</td>
+                    <td>2,66%</td>
+                </tr>
+                <tr><!--LINHA-->
+                    <td><b>Carga Horária Total</b></td><!--COLUNA-->
+                    <td><b>3210</b></td>
+                    <td><b>1028</b></td>
+                    <td><b>32,02%</b></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

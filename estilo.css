@@ -1,0 +1,107 @@
+/*Definindo cores para o body*/
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: #fbd0de;
+    background: #e5e5e6;
+    text-align: center;
+}
+/*Definindo o tamanho e detalhes das imagens*/
+img {
+    width: 20%;
+    height: auto;
+    border-radius: 100px;
+}
+
+/*Definindo detalhes para as imagens de redes sociais*/
+.imagemredes {
+    width: 50px;
+}
+a {
+    color: #bfbfbf;
+    text-decoration: none;
+}
+/*Definindo o cabeçalho do site*/
+.cabecalho {
+    width: 101%;
+    height: 98px;
+    background-color: #c5c5c5b4;
+    font-size: 15px;
+    margin-bottom: 100px;
+    position: fixed;
+    left: -2px;
+    top: -15px;
+}
+header {
+    margin-bottom: 100px;
+}
+/*Definindo a escrita do cabeçalho*/
+#escritacabecalho {
+    margin-top: 50px;
+    font-size: 3em;
+    color: #f05c8d;
+}
+
+* {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+}
+/*Definindo como vai ficar a cor da página selecionada no cabeçalho*/
+.navegacao{
+    color: #f14a82 !important;
+    font-size: larger;
+    font-weight: bold;
+}
+.navegacao:hover{
+    color:#fa8cb0;
+}
+.active{
+    background-color:#faa9c4 !important;
+    border-color: #f05c8d !important;
+}
+p{
+    color:#f14a82;
+    font-size: 13px;
+}
+/*b{
+    color:#f14a82;
+    font-size: 20px;
+}*/
+/*Definindo cores para a tabela da faculdade*/
+table{
+    text-align: center !important;
+    color:#f14a82 !important;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: #c5c5c5b4;
+    color: #f14a82;
+}
+/*Definindo cor para a linha de divisão do currículo*/
+hr{
+    color:#f14a82;
+}
+
+.btn-outline-secondary{
+    color:#f14a82 !important;
+    border-color: #f14a82 !important;
+    --bs-btn-color: #f14a82;
+    --bs-btn-hover-color: #f14a82;
+    --bs-btn-hover-bg: #e5e5e6;
+    --bs-btn-hover-border-color: #f14a82;
+    --bs-btn-focus-shadow-rgb: #f14a82;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #f14a82;
+    --bs-btn-active-border-color: #f14a82;
+    --bs-btn-active-shadow: inset 0 3px 5px #f14a82;
+    --bs-btn-disabled-color:#f14a82;
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: #f14a82;
+}
+
+.btn-outline-secondary:hover{
+    color:#faa9c4 !important;
+}
+/*.btn-outline-secondary, .btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:visited {
+    background-color: #a50037 !important;
+    color:#a50037 !important;
+}*/
